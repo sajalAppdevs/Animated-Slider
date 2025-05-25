@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:slider/animated_slider.dart';
+import 'package:slider/widgets/animated_slider.dart';
 
 void main() {
   runApp(const MainApp());
@@ -11,6 +11,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Colors.black,
         body: Center(
